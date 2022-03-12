@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.7;
 
-contract Hoge {
+contract Faucet {
     address payable admin;
 
     receive() external payable {}
