@@ -15,7 +15,7 @@ contract Faucet {
     }
 
     function getEther(uint amount) public payable {
-        require(amount <= 1000000000000000000);
+        require(amount <= 0.1 ether);
         admin.transfer(amount);
     }
 }
